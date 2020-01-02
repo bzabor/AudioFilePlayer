@@ -69,39 +69,3 @@ void AudioFilePlayerEditor::changeListenerCallback(ChangeBroadcaster* source)
     }
 }
 
-////==============================================================================
-//AudioFilePlayerProcessorEditor::AudioFilePlayerProcessorEditor (AudioFilePlayerProcessor& p)
-//    : AudioProcessorEditor (&p), processor (p), state (Stopped)
-//{
-//    // Make sure that before the constructor has finished, you've set the
-//    // editor's size to whatever you need it to be.
-//    setSize (400, 300);
-//}
-//
-//AudioFilePlayerProcessorEditor::~AudioFilePlayerProcessorEditor()
-//{
-//}
-//
-////==============================================================================
-//void AudioFilePlayerProcessorEditor::paint (Graphics& g)
-//{
-//    // (Our component is opaque, so we must completely fill the background with a solid colour)
-//    g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
-//
-//    g.setColour (Colours::white);
-//    g.setFont (15.0f);
-//
-//
-//
-//}
-//
-//void AudioFilePlayerProcessorEditor::resized()
-//{
-//    // This is generally where you'll want to lay out the positions of any
-//    // subcomponents in your editor..
-//
-//    openButton.setBounds (10, 10, getWidth() - 20, 20);
-//        playButton.setBounds (10, 40, getWidth() - 20, 20);
-//        stopButton.setBounds (10, 70, getWidth() - 20, 20);
-//
-//}
